@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: 100%;
+    background-image: linear-gradient(to right top, #ffffff, #f2f7ff, #d8f3ff, #b3f1ff, #8bf0ff, #8bf0ff, #8bf0ff, #8bf0ff, #b3f1ff, #d8f3ff, #f2f7ff, #ffffff);
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-display: swap;
+}
+
+.card-body{
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+}
+

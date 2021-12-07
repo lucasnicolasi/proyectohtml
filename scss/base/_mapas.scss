@@ -1,0 +1,22 @@
+/* Mapas */
+
+
+$estilo: (
+    bg-estilo: #0066ff,
+    text-align-estilo: center,
+    color-estilo: white,
+    position-estilo: sticky,
+    top-estilo: 0%,
+    font-weight-estilo: bold,
+
+);
+
+
+.envios {
+    background-color: map-get($estilo, bg-estilo);
+    text-align: map-get($estilo, text-align-estilo);
+    color: map-get($estilo, color-estilo);
+    position: map-get($estilo, position-estilo);
+    top: map-get($estilo, top-estilo);
+    font-weight: map-get($estilo, font-weight-estilo);
+}

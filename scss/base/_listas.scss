@@ -1,0 +1,50 @@
+/* Lista de colores */
+
+$colores:
+#0066ff, /* 1 */
+white, /* 2 */
+black, /* 3 */
+#3e4041, /* 4 */
+darkgoldenrod; /* 5 */
+
+.envios{
+    background-color: nth($colores, 1);
+    color: nth($colores, 2)
+}
+
+.tituloPrincipal{
+    color: nth($colores, 3)
+}
+
+.enlaces{
+    color: nth($colores, 2)
+}
+
+.enlaces:hover{
+    color: nth($colores, 2)
+}
+
+.links{
+    background-color: nth($colores, 4)
+}
+
+.listado:hover{
+    background-color: nth($colores, 5);
+    color: nth($colores, 2)
+}
+
+.titulo-alimento{
+    color: nth($colores, 3)
+}
+
+.tituloAccesorios{
+    color: nth($colores, 3)
+}
+
+.tituloVeterinaria{
+    color: nth($colores, 3)
+}
+
+.subtituloServicio{
+    color: nth($colores, 3)
+}

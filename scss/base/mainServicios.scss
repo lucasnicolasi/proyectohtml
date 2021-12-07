@@ -1,0 +1,48 @@
+/*main servicios*/
+
+.tituloVeterinaria{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.subtituloServicio{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.servicioContainer{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.imagenVete{
+    width: 20%;
+    padding-right: 10px;
+    border-radius: 10%;
+}
+
+.listaServicios{
+    list-style: none;
+    font-size: 20px;
+}
+
+.vacunacionContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+
+}
+
+.listaVacunacion{
+    list-style: none;
+    font-size: 20px;
+}
+
+/*fin main servicios*/

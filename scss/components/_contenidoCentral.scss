@@ -1,0 +1,32 @@
+/* contenido central*/
+
+
+
+
+.productos{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenesInicio{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+section div .nutriqueInicio{
+    width: 100%;
+    height: 50%;
+ }
+
+ section div .pipetaInicio{
+    width: 100%;
+    height: 50%;
+ }
+ 
+section div .correaInicio{
+    width: 100%;
+    height: 50%;
+}
+/*fin de contenido central*/

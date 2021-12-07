@@ -1,0 +1,21 @@
+/* Media queries */
+
+@media only screen and (max-width: 736px) and (min-width: 300px){
+    .links{
+        display:flex;
+        flex-wrap: wrap;
+     
+    }
+ 
+    .enlaces{
+        font-size: 13px;
+    }
+ 
+    .tituloPrincipal{
+        font-size: 350%;
+    }
+ 
+     
+ }
+
+ /* Fin media queries */

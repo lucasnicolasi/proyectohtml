@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-size: 100%;
+  background-image: linear-gradient(to right top, #ffffff, #f2f7ff, #d8f3ff, #b3f1ff, #8bf0ff, #8bf0ff, #8bf0ff, #8bf0ff, #b3f1ff, #d8f3ff, #f2f7ff, #ffffff);
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  font-display: swap;
+}
+
+.card-body {
+  flex-direction: column;
+  display: flex;
+  justify-content: end;
+}
+
+/* header*/
+.envios {
+  background-color: #0066ff;
+  text-align: center;
+  color: white;
+  position: sticky;
+  top: 0%;
+  font-weight: bold;
+}
+
+p {
+  margin: 0%;
+}
+
+.navHeader {
+  background-image: linear-gradient(to right top, #ffffff, #f2f7ff, #d8f3ff, #b3f1ff, #8bf0ff, #8bf0ff, #8bf0ff, #8bf0ff, #b3f1ff, #d8f3ff, #f2f7ff, #ffffff);
+}
+
+.tituloPrincipal {
+  color: black;
+  font-size: 5rem;
+  font-family: "Amatic SC", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.catdogLogo {
+  display: flex;
+  justify-content: start;
+}
+
+.enlaces {
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.enlaces:hover {
+  color: white;
+}
+
+.links {
+  background-color: #3e4041;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.listado:hover {
+  color: white;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+}
+
+.tituloOfertas {
+  text-align: center;
+  padding: 40px;
+}
+
+.carritoBlanco {
+  width: 30px;
+}
+
+/* fin header*/
+/* contenido central*/
+.productos {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenesInicio {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+section div .nutriqueInicio {
+  width: 100%;
+  height: 50%;
+}
+
+section div .pipetaInicio {
+  width: 100%;
+  height: 50%;
+}
+
+section div .correaInicio {
+  width: 100%;
+  height: 50%;
+}
+
+/*fin de contenido central*/
+/*footer*/
+footer {
+  padding: 20px;
+}
+
+.listaRedes {
+  list-style: none;
+  font-weight: bold;
+}
+
+.redesIcon {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.imgIcon:hover {
+  transition: all 1s;
+  transform: scale(0.9);
+}
+
+.listaTexto {
+  padding-left: 5px;
+}
+
+.derechos {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+/*fin footer*/
+/*main perros*/
+.titulo-alimento {
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.cards:hover {
+  transition: all 1.5s;
+  transform: scale(0.9);
+}
+
+.tituloAccesorios {
+  color: #1a1610;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*fin main perros*/
+/* main gatos */
+.tituloAccesorios {
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.tituloAlimento {
+  text-align: center;
+  padding: 30px;
+}
+
+/*fin main gatos*/
+/*main servicios*/
+.tituloVeterinaria {
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.subtituloServicio {
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.servicioContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.imagenVete {
+  width: 20%;
+  padding-right: 10px;
+  border-radius: 10%;
+}
+
+.listaServicios {
+  list-style: none;
+  font-size: 20px;
+}
+
+.vacunacionContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.listaVacunacion {
+  list-style: none;
+  font-size: 20px;
+}
+
+/*fin main servicios*/
+/*main contacto*/
+.contenidoContacto {
+  display: flex;
+  justify-content: center;
+}
+
+.tituloContacto {
+  text-align: center;
+  font-weight: bold;
+}
+
+.descripcionFormulario {
+  font-size: 1.4rem;
+}
+
+.footerContacto {
+  padding-top: 140px;
+}
+
+.derechosContacto {
+  padding-top: 225px;
+}
+
+/*fin main contacto*/
+/*carrito*/
+.carritoIcon {
+  width: 50px;
+  justify-content: center;
+}
+
+.mainCarrito {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-areas: "item1 item1 item1" "item2 item2 item2" "item3 item3 item3" "item4 item4 item4" "item5 item5 item5";
+}
+
+.item1 {
+  grid-area: item1;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.item2:hover {
+  grid-area: item2;
+  padding-bottom: 2%;
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.item3 {
+  grid-area: item3;
+  padding-top: 30px;
+}
+
+.item4 {
+  grid-area: item4;
+}
+
+.item5 {
+  grid-area: item5;
+  padding-top: 50px;
+}
+
+/*fin carrito*/
+/* Media queries */
+@media only screen and (max-width: 736px) and (min-width: 300px) {
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .enlaces {
+    font-size: 13px;
+  }
+
+  .tituloPrincipal {
+    font-size: 350%;
+  }
+}
+/* Fin media queries */
+/* Lista de colores */
+/* 5 */
+.envios {
+  background-color: #0066ff;
+  color: white;
+}
+
+.tituloPrincipal {
+  color: black;
+}
+
+.enlaces {
+  color: white;
+}
+
+.enlaces:hover {
+  color: white;
+}
+
+.links {
+  background-color: #3e4041;
+}
+
+.listado:hover {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.titulo-alimento {
+  color: black;
+}
+
+.tituloAccesorios {
+  color: black;
+}
+
+.tituloVeterinaria {
+  color: black;
+}
+
+.subtituloServicio {
+  color: black;
+}
+
+/* Mapas */
+.envios {
+  background-color: #0066ff;
+  text-align: center;
+  color: white;
+  position: sticky;
+  top: 0%;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=catdog-style.css.map */
