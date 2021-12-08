@@ -79,6 +79,7 @@ p {
   color: white;
   background-color: darkgoldenrod;
   border-radius: 5px;
+  transition: 0.5s;
 }
 
 .tituloOfertas {
