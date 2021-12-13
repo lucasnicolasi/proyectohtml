@@ -11,12 +11,31 @@
         font-size: 13px;
     }
  
-    .tituloPrincipal{
-        font-size: 350%;
-    }
-
+    
     
      
  }
+
+ @media only screen and (max-width: 405px) and (min-width: 300px){
+    .tituloPrincipal{
+        font-size: 2rem;
+        
+    }
+ }
+
+ @media only screen and (max-width: 536px) and (min-width: 405px){
+    .tituloPrincipal{
+        font-size: 3rem;
+        
+    }
+ }
+
+ @media only screen and (min-width: 536px){
+    .tituloPrincipal{
+        font-size: 5rem;
+        
+    }
+ }
+ 
 
  /* Fin media queries */

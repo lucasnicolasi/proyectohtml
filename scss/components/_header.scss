@@ -20,11 +20,13 @@ p{
 
 .tituloPrincipal{
     color: rgb(0, 0, 0);
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-family: 'Amatic SC', cursive;  
-    display: flex;
-    justify-content: center;
-    
+}
+
+.h1Container{
+    align-self: center;
+
 }
 
 .logoContainer{

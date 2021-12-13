@@ -9,6 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 100%;
   font-display: swap;
+  overflow-x: hidden;
 }
 
 .card-body {
@@ -37,10 +38,12 @@ p {
 
 .tituloPrincipal {
   color: black;
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-family: "Amatic SC", cursive;
-  display: flex;
-  justify-content: center;
+}
+
+.h1Container {
+  align-self: center;
 }
 
 .logoContainer {
@@ -122,12 +125,13 @@ section div .correaInicio {
 /*fin de contenido central*/
 /*footer*/
 footer {
-  padding: 20px;
+  padding-top: 60px;
 }
 
 .listaRedes {
   list-style: none;
   font-weight: bold;
+  padding-left: 0;
 }
 
 .redesIcon {
@@ -149,6 +153,46 @@ footer {
   font-weight: bold;
   display: flex;
   justify-content: center;
+}
+
+.gridFooter {
+  display: grid;
+  grid-template-areas: "metodosPago1 metodosPago2 metodosPago3" "metodosPago4 metodosPago5 metodosPago6";
+  padding-bottom: 10%;
+  padding-top: 8px;
+  gap: 5px;
+}
+
+.imgPago {
+  padding: 5px;
+  width: 65px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.iconosContacto {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.contactoIcon {
+  width: 40px;
+}
+
+.pContacto {
+  padding-left: 5px;
+}
+
+.contactoLista {
+  padding-top: 6px;
 }
 
 /*fin footer*/
@@ -300,9 +344,20 @@ footer {
   .enlaces {
     font-size: 13px;
   }
-
+}
+@media only screen and (max-width: 405px) and (min-width: 300px) {
   .tituloPrincipal {
-    font-size: 350%;
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 536px) and (min-width: 405px) {
+  .tituloPrincipal {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 536px) {
+  .tituloPrincipal {
+    font-size: 5rem;
   }
 }
 /* Fin media queries */
