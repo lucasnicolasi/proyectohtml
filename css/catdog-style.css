@@ -344,20 +344,40 @@ footer {
   .enlaces {
     font-size: 13px;
   }
+
+  .descripcionFormulario {
+    font-size: 1.4rem;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 405px) and (min-width: 300px) {
   .tituloPrincipal {
     font-size: 2rem;
+  }
+
+  .descripcionFormulario {
+    font-size: 1.4rem;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 536px) and (min-width: 405px) {
   .tituloPrincipal {
     font-size: 3rem;
   }
+
+  .descripcionFormulario {
+    font-size: 1.4rem;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 536px) {
   .tituloPrincipal {
     font-size: 5rem;
+  }
+
+  .descripcionFormulario {
+    font-size: 1.4rem;
+    text-align: center;
   }
 }
 /* Fin media queries */

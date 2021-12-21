@@ -11,8 +11,10 @@
         font-size: 13px;
     }
  
-    
-    
+    .descripcionFormulario {
+        font-size: 1.4rem;
+        text-align: center;
+    }
      
  }
 
@@ -21,6 +23,11 @@
         font-size: 2rem;
         
     }
+
+    .descripcionFormulario {
+        font-size: 1.4rem;
+        text-align: center;
+    }
  }
 
  @media only screen and (max-width: 536px) and (min-width: 405px){
@@ -28,12 +35,22 @@
         font-size: 3rem;
         
     }
+
+    .descripcionFormulario {
+        font-size: 1.4rem;
+        text-align: center;
+    }
  }
 
  @media only screen and (min-width: 536px){
     .tituloPrincipal{
         font-size: 5rem;
         
+    }
+
+    .descripcionFormulario {
+        font-size: 1.4rem;
+        text-align: center;
     }
  }
  
