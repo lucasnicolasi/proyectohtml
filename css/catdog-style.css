@@ -95,6 +95,7 @@ p {
 }
 
 /* fin header*/
+
 /* contenido central*/
 .productos {
   display: flex;
@@ -123,6 +124,7 @@ section div .correaInicio {
 }
 
 /*fin de contenido central*/
+
 /*footer*/
 footer {
   padding-top: 60px;
@@ -196,6 +198,7 @@ footer {
 }
 
 /*fin footer*/
+
 /*main perros*/
 .titulo-alimento {
   color: black;
@@ -215,6 +218,7 @@ footer {
 }
 
 /*fin main perros*/
+
 /* main gatos */
 .tituloAccesorios {
   text-align: center;
@@ -228,6 +232,7 @@ footer {
 }
 
 /*fin main gatos*/
+
 /*main servicios*/
 .tituloVeterinaria {
   text-align: center;
@@ -269,6 +274,7 @@ footer {
 }
 
 /*fin main servicios*/
+
 /*main contacto*/
 .contenidoContacto {
   display: flex;
@@ -293,6 +299,7 @@ footer {
 }
 
 /*fin main contacto*/
+
 /*carrito*/
 .carritoIcon {
   width: 50px;
@@ -334,6 +341,7 @@ footer {
 }
 
 /*fin carrito*/
+
 /* Media queries */
 @media only screen and (max-width: 653px) and (min-width: 280px) {
   .links {
@@ -381,6 +389,7 @@ footer {
   }
 }
 /* Fin media queries */
+
 /* Lista de colores */
 /* 5 */
 .envios {
